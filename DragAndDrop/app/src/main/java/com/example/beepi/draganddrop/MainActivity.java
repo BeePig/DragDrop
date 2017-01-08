@@ -81,5 +81,41 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
+        // set to move image
+//        ima.setOnTouchListener(new View.OnTouchListener() {
+//
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//                layoutParams = (RelativeLayout.LayoutParams) ima.getLayoutParams();
+//                switch(event.getAction())
+//                {
+//                    case MotionEvent.ACTION_DOWN:
+//                        break;
+//                    case MotionEvent.ACTION_MOVE:
+//                        int x_cord = (int)event.getRawX();
+//                        int y_cord = (int)event.getRawY();
+//
+//                        if(x_cord>getWindowManager().getDefaultDisplay().getWidth())
+//                        {x_cord=getWindowManager().getDefaultDisplay().getWidth();}
+//                        if(y_cord>getWindowManager().getDefaultDisplay().getHeight())
+//                        {y_cord=getWindowManager().getDefaultDisplay().getHeight();}
+//
+//                        layoutParams.leftMargin = x_cord -25;
+//                        layoutParams.topMargin = y_cord - 75;
+//
+//                        ima.setLayoutParams(layoutParams);
+//                        break;
+//                    default:
+//                        break;
+//                }
+//                return true;
+//            }
+//        });
     }
+
+
+
 }
+
